@@ -1,8 +1,9 @@
 
-# PTI_Senac_Grupo_13
+# Projeto Integrador (Grupo 13) - Senac
 
-2º entrega do Projeto Integrador
-Sistema de cadastro universitário 🏫
+2º Entrega:
+
+Desenvolvimento do sistema de cadastro universitário 🏫
 
 O sistema deve contemplar o cadastro de pessoas físicas e jurídicas, alunos, 
 fornecedores e professores, cada um com seus próprios requisitos e necessidade de 
