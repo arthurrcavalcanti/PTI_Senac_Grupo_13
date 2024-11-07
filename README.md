@@ -2,23 +2,27 @@
 # PTI_Senac_Grupo_13
 
 2º entrega do Projeto Integrador
+Sistema de cadastro universitário 🏫
 
-## Requisitos
+O sistema deve contemplar o cadastro de pessoas físicas e jurídicas, alunos, 
+fornecedores e professores, cada um com seus próprios requisitos e necessidade de 
+acesso as informações da universidade.
 
-Aluno 🧑‍🎓:
+## Requisitos 
 
+Aluno 🧑‍🎓
 - [ ] 🔹 Cadastro de conta com informações pesoais 
 - [ ] 🔹 Exclusão de conta
 - [ ] 🔹 Matrícula em disciplinas
   
-Professor 👩‍🔬:
+Professor 👩‍🔬
 - [ ] 🔹 Cadastro de conta com informações pessoais
 - [ ] 🔹 Caso exista adicionar informações de pessoa jurídica
 - [ ] 🔹 Adicionar professor a uma disciplina
 - [ ] 🔹 Consultar salário 💸
 
-Fornecedor 👨‍💼:
-- [ ] 🔹 Cadastro de conta com informações da empresa
+Fornecedor 👨‍💼
+- [ ] 🔹 Cadastro de conta com informações da empresa 🏭
 - [ ] 🔹 Cadastro de pessoa jurídica
 - [ ] 🔹 Cadastro de produtos
 - [ ] 🔹 Cadastro de estoque dos produtos
@@ -106,3 +110,6 @@ classDiagram
         - Valor: decimal
     }
 ```
+
+## Diagrama de caso de uso
+![Diagrama de caso de uso](documentacao/diagramas/diagrama_de_caso_de_uso.png "Diagrama de caso de uso")
