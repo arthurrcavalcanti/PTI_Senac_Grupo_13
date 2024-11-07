@@ -47,20 +47,22 @@ classDiagram
     Professor --|> Disciplina
     Professor <-- Disciplina
     Aluno --|> Disciplina
+    Aluno <|-- Disciplina
 
     Fornecedor --|> Produto
     
     class Pessoa {
         - Id: int
+        - Matricula: string
         - Nome: string
         - Endereco: string
         - Email: string
         - Telefone: string
         - Ativo: bool
         - Admin: bool
-        + Cadastrar() Pessoa
-        + Validar() bool
-        + Alterar() bool
+        + cadastrar() void
+        + validaAdmin() bool
+        + atualizar() void
     }
     class PessoaJuridica {
         - Pessoa: Pessoa
@@ -68,27 +70,31 @@ classDiagram
         - RazaoSocial: string
         - NomeFantasia: string
         - InscricaoEstadual: string
+        + cadastrar()
+        + atualizar()
     }
     class PessoaFisica {
         - Pessoa: Pessoa
         - CPF: string
+        + cadastrar()
+        + atualizar()
     }
     class Professor {
         - PessoaFisica: PessoaFisica
         - PessoaJuridica: PessoaJuridica
-        - Matricula: string
         - Disciplinas: [Disciplina]
         + calcularSalario() decimal
+        + listarDisciplinas() [Disciplina]
     }
     class Aluno {
         - PessoaFisica: PessoaFisica
-        - Matricula: string
         - Curso: string
         - Disciplinas: [Disciplina]
         - DataInicio: datetime
         + consultarNota() void
         + acessarBoleto() void
         + consultarDisciplinas() void
+        + listarDisciplinas() [Disciplina]
     }
     class Disciplina {
         - Id: int
@@ -96,12 +102,13 @@ classDiagram
         - cargaHoraria: decimal
         - Professor: Professor
         - Alunos: [Aluno]
+        + defineProfessor(Professor) void
         + matriculaAluno(Aluno) void
+        + listarAlunos() [Aluno]
     }
     class Fornecedor {
         - PessoaJuridica: PessoaJuridica
         - Produtos: [Produto]
-        - Quantidade: decimal
         + solicitarNotaFiscal() void
         + consultarEstoque() void
     }
@@ -109,6 +116,9 @@ classDiagram
         - Id: int
         - Nome: string
         - Valor: decimal
+        - Estoque: decimal
+        + alterarEstoque(qtd) void
+        + alterarValor(valor) void
     }
 ```
 
