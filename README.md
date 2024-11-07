@@ -1,23 +1,27 @@
+
 # PTI_Senac_Grupo_13
+
 2º entrega do Projeto Integrador
 
 ## Requisitos
-Aluno:
-- Cadastro de conta com informações pesoais
-- Exclusão de conta
-- Matrícula em disciplinas
-  
-Professor:
-- Cadastro de conta com informações pessoais
-- Caso exista adicionar informações de pessoa jurídica
-- Adicionar professor a uma disciplina
-- Consultar salário
 
-Fornecedor:
-- Cadastro de conta com informações da empresa
-- Cadastro de pessoa Jurídica
-- Cadastro de produtos
-- Cadastro de estoque dos produtos
+Aluno 🧑‍🎓:
+
+- [ ] 🔹 Cadastro de conta com informações pesoais 
+- [ ] 🔹 Exclusão de conta
+- [ ] 🔹 Matrícula em disciplinas
+  
+Professor 👩‍🔬:
+- [ ] 🔹 Cadastro de conta com informações pessoais
+- [ ] 🔹 Caso exista adicionar informações de pessoa jurídica
+- [ ] 🔹 Adicionar professor a uma disciplina
+- [ ] 🔹 Consultar salário 💸
+
+Fornecedor 👨‍💼:
+- [ ] 🔹 Cadastro de conta com informações da empresa
+- [ ] 🔹 Cadastro de pessoa jurídica
+- [ ] 🔹 Cadastro de produtos
+- [ ] 🔹 Cadastro de estoque dos produtos
    
 
 ## Diagramas / UML
