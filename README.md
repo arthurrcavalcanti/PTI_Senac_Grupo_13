@@ -11,24 +11,50 @@ acesso as informações da universidade.
 
 ## Requisitos 
 
-Aluno 🧑‍🎓
-- [ ] 🔹 Cadastro de conta com informações pesoais 
-- [ ] 🔹 Exclusão de conta
+### Geral
+- [x] Página inicial
+- [x] Página contato
+- [x] Tela do admnistrador
+- [x] Exclusão de conta
+  
+### Professor 👩‍🔬
+- [x] 🔹 Portal do professor
+- [x] 🔹 Lista de disciplinas/turmas
+- [ ] 🔹 Lista de alunos e dar notas aos alunos
+
+### Aluno 🧑‍🎓
+- [ ] 🔹 Portal do aluno 
 - [ ] 🔹 Matrícula em disciplinas
   
-Professor 👩‍🔬
-- [ ] 🔹 Cadastro de conta com informações pessoais
-- [ ] 🔹 Caso exista adicionar informações de pessoa jurídica
-- [ ] 🔹 Adicionar professor a uma disciplina
-- [ ] 🔹 Consultar salário 💸
-
-Fornecedor 👨‍💼
-- [ ] 🔹 Cadastro de conta com informações da empresa 🏭
-- [ ] 🔹 Cadastro de pessoa jurídica
+### Fornecedor 👨‍💼
+- [ ] 🔹 Portal do fornecedor 🏭
 - [ ] 🔹 Cadastro de produtos
-- [ ] 🔹 Cadastro de estoque dos produtos
-   
+- [ ] 🔹 Atualização de estoque e valores dos produtos
 
+---
+## Prototipação
+
+### Geral
+#### Página inicial
+![Página inicial](documentacao/prototipos/prototipo-pagina-inicial.png)
+
+#### Página de contato
+![Página de contato](documentacao/prototipos/prototipo-fale-conosco.jpg)
+
+#### Página de exclusão de conta
+![Exclusão de conta](documentacao/prototipos/prototipo-exclusao.jpg)
+
+---
+### Portal do professor
+#### Principal
+![Portal do professor](documentacao/prototipos/prototipo-portal-do-professor.jpg)
+
+---
+
+### Portal do Aluno
+---
+### Portal do Fornecedor
+---
 ## Diagramas / UML
 
 ```mermaid
