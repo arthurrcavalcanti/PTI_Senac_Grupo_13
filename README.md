@@ -52,6 +52,8 @@ acesso as informações da universidade.
 ---
 
 ### Portal do Aluno
+![Portal do aluno](documentacao/prototipos/prototipo-portal-do-aluno.jpg)
+
 ---
 ### Portal do Fornecedor
 ---
