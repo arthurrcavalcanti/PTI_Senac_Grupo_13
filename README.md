@@ -14,7 +14,7 @@ acesso as informações da universidade.
 ### Geral
 - [x] Página inicial
 - [x] Página contato
-- [x] Tela do admnistrador
+- [x] Tela do administrador
 - [x] Exclusão de conta
   
 ### Professor 👩‍🔬
