@@ -20,11 +20,10 @@ acesso as informações da universidade.
 ### Professor 👩‍🔬
 - [x] 🔹 Portal do professor
 - [x] 🔹 Lista de disciplinas/turmas
-- [ ] 🔹 Lista de alunos e dar notas aos alunos
 
 ### Aluno 🧑‍🎓
-- [ ] 🔹 Portal do aluno 
-- [ ] 🔹 Matrícula em disciplinas
+- [x] 🔹 Portal do aluno 
+- [x] 🔹 Matrícula em disciplinas
   
 ### Fornecedor 👨‍💼
 - [ ] 🔹 Portal do fornecedor 🏭
@@ -46,7 +45,6 @@ acesso as informações da universidade.
 
 ---
 ### Portal do professor
-#### Principal
 ![Portal do professor](documentacao/prototipos/prototipo-portal-do-professor.jpg)
 
 ---
@@ -56,6 +54,7 @@ acesso as informações da universidade.
 
 ---
 ### Portal do Fornecedor
+![Portal do fornecedor](documentacao/prototipos/prototipo-portal-do-fornecedor.jpg)
 ---
 ## Diagramas / UML
 
