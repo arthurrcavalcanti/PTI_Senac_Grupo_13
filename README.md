@@ -26,9 +26,9 @@ acesso as informações da universidade.
 - [x] 🔹 Matrícula em disciplinas
   
 ### Fornecedor 👨‍💼
-- [ ] 🔹 Portal do fornecedor 🏭
-- [ ] 🔹 Cadastro de produtos
-- [ ] 🔹 Atualização de estoque e valores dos produtos
+- [x] 🔹 Portal do fornecedor 🏭
+- [x] 🔹 Cadastro de produtos
+- [x] 🔹 Atualização de estoque e valores dos produtos
 
 ---
 ## Prototipação
